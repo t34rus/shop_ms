@@ -1,1 +1,15 @@
-/.idea/
+### OS ###
+.DS_Store
+
+### Build artifacts ###
+**/target/
+**/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### VS Code ###
+.vscode/
