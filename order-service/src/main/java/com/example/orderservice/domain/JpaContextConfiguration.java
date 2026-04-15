@@ -1,4 +1,4 @@
-package com.example.order_service.domain;
+package com.example.orderservice.domain;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;

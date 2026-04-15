@@ -1,10 +1,9 @@
-package com.example.order_service.domain.repository;
+package com.example.orderservice.domain.repository;
 
-import com.example.order_service.TestOrderServiceApplication;
-import com.example.order_service.domain.model.Order;
+import com.example.orderservice.TestOrderServiceApplication;
+import com.example.orderservice.domain.model.Order;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 
@@ -30,5 +29,7 @@ class OrderRepositoryTest {
         List<Order> all = orderRepository.findAll();
         assertEquals(0, all.size());
     }
+
+
 
 }

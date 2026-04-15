@@ -1,4 +1,4 @@
-package com.example.order_service.domain.model;
+package com.example.orderservice.domain.model;
 
 public enum OrderStatus {
     NEW,
