@@ -29,7 +29,4 @@ class OrderRepositoryTest {
         List<Order> all = orderRepository.findAll();
         assertEquals(0, all.size());
     }
-
-
-
 }
